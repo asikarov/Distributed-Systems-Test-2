@@ -40,7 +40,7 @@ func question1() {
 	// append random ints
 	var s []int
 	for i := 0; i <= num; i++ {
-		s = append(s, rand.Intn(10))
+		s = append(s, rand.Int())
 	}
 
 	// sum slice
@@ -73,7 +73,7 @@ func question2() {
 	// append random ints
 	var s []int
 	for i := 0; i <= num; i++ {
-		s = append(s, rand.Intn(10))
+		s = append(s, rand.Int())
 	}
 	var sliceCopy []int
 	copy(s, sliceCopy)
